@@ -1,0 +1,178 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 10 px;
+    padding: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: blue;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+   background-image:linear-gradient(blue,green);
+    padding: 10px 20px;
+    color: white;
+   border-radius: 15px;
+   font-weight: 700;
+   margin-top: 20px;
+
+   
+}
+.link-button-1{
+    text-decoration: none;
+   background-image:linear-gradient(blue,green);
+    padding: 10px 20px;
+    color: white;
+   border-radius: 15px;
+   font-weight: 700;
+   float: right;
+   margin-top: 5px;
+   
+s
+}
+.full{
+    margin top: 5px;
+}
+.dreem{
+    background-image: url(dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Developer{
+    color: blue;
+    margin-top: 5px;
+
+}
+.juniour{
+    color: gold;
+    margin-top: 5px;
+}
+.single{
+    box-shadow: 10px 10px 30px blue;
+    border-radius: 10px;
+    height: 50%;
+}
+.Experience{
+    background: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,green);
+    border-image-slice: 1;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(Emon.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.Menu-bar
+{
+	background: rgb(0, 100, 0);
+	text-align: center;
+}
+.Menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.Menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.Menu-bar ul li a 
+{
+	text-decoration:none;
+	color: white;
+}
+.active, .Menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+..Menu-bar .font-family
+{
+margin: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.Menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0, 100, 0);
+	margin-top: 15px; 
+	margin-left: -15px;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul 
+{
+	display: block;
+	margin: 10px;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li 
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+.sub-menu-2
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(0, 100, 0);
+}
+
+
+
